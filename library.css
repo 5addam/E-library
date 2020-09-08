@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#newBook-form{
+    padding: 1rem;
+}
+#books-container{
+    margin: auto;
+    padding: 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(356px, 1fr));
+    grid-gap: 2rem;
+    justify-items: center;
+}
+#card-footer{
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    align-items: center;
+}
+.card{
+    width: 356px;
+}
