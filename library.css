@@ -3,6 +3,13 @@
     margin: 0;
     padding: 0;
 }
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 #newBook-form{
     padding: 1rem;
 }
@@ -22,4 +29,17 @@
 }
 .card{
     width: 356px;
+}
+
+.footer{
+    display: flex;
+    height: 50px;
+    position: sticky;
+    background-color: #343a40;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h6:hover{
+    text-transform: uppercase;
 }
